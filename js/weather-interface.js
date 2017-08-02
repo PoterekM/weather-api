@@ -1,4 +1,5 @@
 var apiKey = "a928e20f76a0b5e801f9d90feb578f6a";
+// var Faren = require('./../js/temperature.js').farenModule;
 
 $(document).ready(function() {
   $('#weather-location').click(function() {

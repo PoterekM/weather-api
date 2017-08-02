@@ -1,17 +1,10 @@
-///translate the temperature from degrees kelvin to fahrenheit
-
-// Celsius = Kelvin - 273.15
-
-// fahrenheit = kelvin * 9/5 - 459.67
 
 
-Fahren = function(degrees) {
-  this.degrees = degrees;
+
+var Weather = function () {
+
 }
 
-Fahren.prototype.calculate = function() {
-  var temperature =
+Weather.prototype.toCelsius = function(kelvin) {
+  return kelvin - 273.15;
 }
-
-
-exports.farenModule = Faren;
